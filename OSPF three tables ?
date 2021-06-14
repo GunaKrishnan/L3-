@@ -1,0 +1,9 @@
+Tables Maintained By Ospf?
+Answer :
+Router participating in OSPF routing protocol maintains three OSPF tables:-
+1.Neighbor table - Stores information about OSPF neighbors.
+ command to see # sh ip ospf neighbor
+2.Topology table - Stores the topology structure of a network.
+ command to see # sh ip ospf topology
+3.Routing table -  Stores the best routes to all known networks.
+command to see # sh ip route ospf
